@@ -1,0 +1,71 @@
+.container {
+  width: 1030px;
+  margin: auto; }
+
+.new-topmenu {
+  text-align: right;
+  margin-bottom: 0; }
+  .new-topmenu li {
+    display: inline-block;
+    padding: 0 3px;
+    position: relative; }
+    .new-topmenu li a {
+      color: #000000;
+      text-decoration: none;
+      line-height: 30px; }
+    .new-topmenu li:before {
+      content: '|';
+      position: absolute;
+      right: -5px;
+      top: 5px;
+      color: white; }
+    .new-topmenu li:first-child:before {
+      content: none; }
+    .new-topmenu li:last-child:before {
+      content: none; }
+
+.header .left-banner__text {
+  position: fixed;
+  top: 380px;
+  left: 50%;
+  margin-left: -670px;
+  width: 190px;
+  height: 50px;
+  text-align: left;
+  color: black;
+  font-size: 11px;
+  font-weight: bold; }
+.header .left-banner img {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  margin-left: -660PX;
+  height: 338px; }
+.header .right-banner img {
+  position: fixed;
+  top: 30px;
+  right: 50%;
+  margin-right: -720px;
+  width: 200px; }
+.header .logo {
+  overflow: hidden;
+  position: relative; }
+  .header .logo img {
+    margin-left: -30px; }
+  .header .logo p {
+    position: absolute;
+    top: 68px;
+    left: 310px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #4F1A08; }
+    .header .logo p span {
+      display: block;
+      text-align: center; }
+.header .header-slider .tur {
+  width: 695px;
+  height: 405px;
+  background: transparent;
+  position: absolute; }
+
+/*# sourceMappingURL=new-style.css.map */
