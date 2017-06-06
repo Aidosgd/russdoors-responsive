@@ -86,6 +86,7 @@
     }
   }
   .header-slider{
+    height: 405px;
     .tur{
       width: 695px;
       height: 405px;
@@ -93,4 +94,41 @@
       position: absolute;
     }
   }
+  .navbar{
+    margin-bottom: -20px;
+    .collapse{
+      padding: 0;
+    }
+    .navbar-nav{
+      width: 100%;
+      display: block;
+      li{
+        width: 25%;
+        text-align: center;
+        a{
+          background: linear-gradient(to top, #1d100b, #44261c);
+          color: white;
+          font-size: 20px;
+          font-family: 'Cormorant', serif;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+        .dropdown-menu{
+          padding: 0;
+          right: 0;
+          li{
+            width: 100%;
+            a{
+              font-size: 16px;
+              padding: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.content{
+  background: white;
+  padding: 30px 15px;
 }

@@ -62,10 +62,41 @@
     .header .logo p span {
       display: block;
       text-align: center; }
-.header .header-slider .tur {
-  width: 695px;
-  height: 405px;
-  background: transparent;
-  position: absolute; }
+.header .header-slider {
+  height: 405px; }
+  .header .header-slider .tur {
+    width: 695px;
+    height: 405px;
+    background: transparent;
+    position: absolute; }
+.header .navbar {
+  margin-bottom: -20px; }
+  .header .navbar .collapse {
+    padding: 0; }
+  .header .navbar .navbar-nav {
+    width: 100%;
+    display: block; }
+    .header .navbar .navbar-nav li {
+      width: 25%;
+      text-align: center; }
+      .header .navbar .navbar-nav li a {
+        background: linear-gradient(to top, #1d100b, #44261c);
+        color: white;
+        font-size: 20px;
+        font-family: 'Cormorant', serif;
+        text-transform: uppercase;
+        font-weight: bold; }
+      .header .navbar .navbar-nav li .dropdown-menu {
+        padding: 0;
+        right: 0; }
+        .header .navbar .navbar-nav li .dropdown-menu li {
+          width: 100%; }
+          .header .navbar .navbar-nav li .dropdown-menu li a {
+            font-size: 16px;
+            padding: 5px; }
+
+.content {
+  background: white;
+  padding: 30px 15px; }
 
 /*# sourceMappingURL=new-style.css.map */
